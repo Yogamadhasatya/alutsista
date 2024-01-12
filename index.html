@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Alutsista</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0" id="h1">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="text-white">Alut<span class="text-dark"></span>Sista</h1>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="#h1" class="nav-item nav-link active">Home</a>
+                        <a href="#b1" class="nav-item nav-link">About</a>
+                        <a href="#b2" class="nav-item nav-link">Urgensi</a>
+                        <a href="#b3" class="nav-item nav-link">My Team</a>
+                        <a href="./admin/login.php" class="nav-item nav-link">Login</a>
+                    </div>
+                    <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
+                        data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid pt-5 bg-primary hero-header mb-5">
+        <div class="container pt-5">
+            <div class="row g-5 pt-5" >
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 animated slideInRight">Alutsista</div>
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">Alat Utama Sistem Pertahanan</h1>
+                    <p class="text-white mb-4 animated slideInRight">Sistem Pertahanan & Manajemen Alutsista Negara Republik Indonesia Merupakan keseluruhan sistem pertahanan Republik Indonesia</p>
+                    <a href="" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInRight">Read More</a>
+                    <a href="" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Login</a>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-lg-end">
+                    <img class="img-fluid" src="img/hero-img.png" alt="" >
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1" >
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(20, 24, 62, 0.7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn btn-square bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-light p-3"
+                            placeholder="Type search keyword">
+                        <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+    <!-- About Start -->
+
+    <div class="container-fluid py-5" >
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img class="img-fluid" src="img/about-img.jpg" >
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" id="b1">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3" style="margin-top: 20%;">About Us</div>
+                    <h2 align="justify" class="mb-4">Kedaulatan dan Keamanan Melalui Alutsista Berkualitas Tinggi</h2>
+                    <p align="justify" class="mb-4">Sebagai negara kepulauan terbesar di dunia, Indonesia memiliki peran krusial dalam memastikan kedaulatan dan keamanan wilayahnya. Dalam upaya untuk mengamankan tanah air, Republik Indonesia berkomitmen untuk membangun dan mengelola Alat Utama Sistem Pertahanan (Alutsista) dengan standar tinggi.</p>
+                    <p align="justify" class="mb-4">Republik Indonesia terus berupaya untuk meningkatkan kemampuan pertahanannya melalui inovasi, modernisasi, dan kesiapsiagaan. Visi Indonesia dalam bidang pertahanan adalah menciptakan keamanan yang berkelanjutan, sementara misinya adalah menyediakan Alutsista berkualitas tinggi untuk melindungi kedaulatan, integritas wilayah, dan kepentingan nasional</p>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>Maintenance Rutin</h6>
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Sesuai Standart</h6>
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>Terkelola Dengan Baik</h6>
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Berkualitas Tinggi</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mt-4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid bg-light mt-5 py-5" id="b2">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">urgensi</div>
+                    <h1 class="mb-4">Pentingnya Alutsista</h1>
+                    <p class="mb-4">Indonesia bangga dengan industri pertahanannya yang terus berkembang. 
+                        Dengan fokus pada penelitian, pengembangan, dan kolaborasi internasional, 
+                        Indonesia berusaha untuk tetap menjadi pemimpin di dunia pertahanan.</p>
+                    <a class="btn btn-primary rounded-pill px-4" href="">Read More</a>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-duotone fa-users fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Fokus Utama</h5>
+                                        <p>Alutsista Indonesia menjadi fokus utama dalam menjaga kedaulatan dan keamanan bangsa. 
+                                            Dalam menghadapi berbagai tantangan kompleks</p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-solid fa-globe fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Komitmen Negara</h5>
+                                        <p>Indonesia terus berkomitmen untuk mengembangkan Alutsista yang handal, 
+                                            inovatif, dan sesuai dengan standar internasional.</p>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-md-4">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-solid fa-fire fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Pertahanan Nasional</h5>
+                                        <p>Modernisasi sistem pertahanan menjadi landasan bagi pembangunan 
+                                            kekuatan militer yang tangguh, menjadikan Alutsista sebagai tulang punggung pertahanan nasional. 
+                                        </p>
+                                       
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-solid fa-microchip fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Adaptasi Teknologi</h5>
+                                        <p>Dengan mengintegrasikan teknologi canggih, seperti sistem senjata presisi, sistem komunikasi terenkripsi, dan 
+                                            kendaraan tempur berperforma tinggi, Alutsista Indonesia dirancang untuk memberikan respons yang efektif dalam menghadapi berbagai ancaman.</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid bg-primary feature pt-5">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Feature</div>
+                    <h1 class="text-white mb-4">Alutsista (Alat Utama Sistem Pertahanan)</h1>
+                    <p class="text-light mb-4">Website Alutsista Indonesia menawarkan sejumlah fitur yang dirancang untuk memberikan informasi yang komprehensif dan memudahkan interaksi pengguna.</p>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <span>Peminjaman dan Pemesanan Alutsista</span>
+                    </div>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <span>Pengelolaan Pemeliharaan Alutsista</span>
+                    </div>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <span>Pengelolaan Data Alutsista Yang Terintegrasi</span>
+                    </div>
+                    <div class="row g-4 pt-3">
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-users fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h2 class="text-white mb-0" data-toggle="counter-up">1</h2>
+                                    <p class="text-white mb-0">Terciptanya Keamanan Nasional</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-check fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h2 class="text-white mb-0" data-toggle="counter-up">2</h2>
+                                    <p class="text-white mb-0">Pengelolaan Data Terintegrasi dan Presisi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
+                    <img class="img-fluid" src="img/app.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- Case Start -->
+    <div class="container-fluid bg-light py-5">
+        <div class="container py-5">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+                <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Jenis Alutsista</div>
+                <h1 class="mb-4">Permenhan Nomor 4 Tahun 2019</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2" style="min-height: 310px;">
+                        <img class="img-fluid" src="img/kemenhan.jpg" alt="" >
+                        <a class="case-overlay text-decoration-none" href="">
+                            <small>Lingkungan Kemenhan</small>
+                            <h5 class="lh-base text-white mb-3">Senjata Pistol, senapan, kendaraan tempur, munisi, alat komunikasi, alat perang elektronika
+                            </h5>
+                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2" style="min-height: 310px;">
+                        <img class="img-fluid" src="img/mabes-tni.jpg" alt="" style="min-height: 310px;">
+                        <a class="case-overlay text-decoration-none" href="">
+                            <small>Lingkungan Mabes TNI</small>
+                            <h5 class="lh-base text-white mb-3">Senjata Pistol, senapan, kendaraan tempur, munisi kaliber kecil dan khusus, alat komunikasi, alat perang elektronika
+                            </h5>
+                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2" style="min-height: 310px;">
+                        <img class="img-fluid" src="img/tni-ad.jpg" alt="" style="min-height: 310px;">
+                        <a class="case-overlay text-decoration-none" href="">
+                            <small>TNI AD</small>
+                            <h5 class="lh-base text-white mb-3">Kendaraan Tempur Panser, Tank, senjata infanteri, kavaleri, pelontar granat, artileri medan, anti kendaraan lapis baja, kendaraan bermotor, alat optik, dan heli.
+                            </h5>
+                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2" style="min-height: 310px;">
+                        <img class="img-fluid" src="img/tni-al.webp" alt="" style="min-height: 310px;">
+                        <a class="case-overlay text-decoration-none" href="">
+                            <small>Lingkungan TNI AL</small>
+                            <h5 class="lh-base text-white mb-3">Kapal, Senjata, Munisi, Pesawat Udara, Kendaraan Tempur, Kendaraan Bermotor
+                            </h5>
+                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2" style="min-height: 310px;">
+                        <img class="img-fluid" src="img/tni-au.webp" alt="" >
+                        <a class="case-overlay text-decoration-none" href="">
+                            <small>Lingkungan TNI AU</small>
+                            <h5 class="lh-base text-white mb-3">Pesawat Tempur, Heli, Senjata, Munisi, Kendaraan Bermotor, Radar, dan Bom
+                            </h5>
+                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Case End -->
+
+
+    <!-- FAQs Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+                <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Popular FAQs</div>
+                <h1 class="mb-4">Frequently Asked Questions</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionFAQ1">
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.1s">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Apa yang dimaksud Alutsista?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    Alutsista adalah perangkat dan perlengkapan yang digunakan oleh sebuah negara untuk mempertahankan kedaulatan dan keamanan, termasuk kendaraan tempur, sistem senjata, dan peralatan militer lainnya.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.2s">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Bagaimana proses pengembangan dan pengadaan Alutsista di Indonesia ?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    Proses pengembangan dan pengadaan Alutsista melibatkan tahap penelitian, uji coba, dan evaluasi oleh pihak berwenang, kemudian dilanjutkan dengan proses lelang untuk pemilihan penyedia yang memenuhi persyaratan.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.3s">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Apa peran teknologi dalam Alutsista Indonesia?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    Teknologi memainkan peran kunci dalam Alutsista Indonesia, membantu meningkatkan kemampuan operasional, keakuratan, dan efisiensi sistem pertahanan.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.4s">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                    Bagaimana Alutsista mendukung personel militer dalam menjalankan tugasnya?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    Alutsista dirancang untuk meningkatkan perlindungan, mobilitas, dan daya tembak personel militer, memastikan keberhasilan dalam berbagai misi dan tugas.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionFAQ2">
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.5s">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Apa saja jenis-jenis Alutsista yang dimiliki Indonesia?
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body">
+                                    Indonesia memiliki berbagai jenis Alutsista, termasuk tank tempur, pesawat tempur, kapal perang, dan sistem pertahanan udara.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.6s">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    Bagaimana peran Alutsista dalam mengatasi ancaman keamanan modern?
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body">
+                                    Alutsista Indonesia diperbarui secara terus-menerus untuk menghadapi ancaman keamanan yang terus berkembang, dengan teknologi dan kemampuan yang dapat merespons dinamika ancaman tersebut.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.7s">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    Bagaimana masyarakat dapat berkontribusi dalam pengembangan Alutsista?
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body">
+                                    Masyarakat dapat berkontribusi dengan mendukung program-program pemerintah terkait pertahanan, serta memberikan dukungan moral kepada personel militer.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.8s">
+                            <h2 class="accordion-header" id="headingEight">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                    Bagaimana cara mengakses informasi lebih lanjut tentang Alutsista Indonesia?
+                                </button>
+                            </h2>
+                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body">
+                                    Informasi lebih lanjut tentang Alutsista Indonesia dapat diakses melalui situs web resmi Kementerian Pertahanan atau melalui kantor terkait yang memberikan layanan informasi dan konsultasi.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQs Start -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid bg-light py-5" id="b3">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Team</div>
+                    <h1 class="mb-4">Anggota Kelompok Kami</h1>
+                    <p class="mb-4">Kami berbagi visi untuk menciptakan solusi terbaik dalam bidang Alat Utama Sistem Pertahanan (Alutsista) dan bekerja bersama-sama dengan semangat kolaboratif untuk mencapai tujuan bersama. Keahlian teknis kami, inovasi, dan keterampilan interpersonal menjadi fondasi keberhasilan kami.</p>
+                    <a class="btn btn-primary rounded-pill px-4" href="">Read More</a>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                        <img class="img-fluid rounded-circle p-4" src="img/team-1.jpg" alt="">
+                                        <h5 class="mb-0">Putri</h5>
+                                        <small>Founder & CEO</small>
+                                        <div class="d-flex justify-content-center mt-3">
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-facebook-f"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-twitter"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-instagram"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                        <img class="img-fluid rounded-circle p-4" src="img/team-2.jpg" alt="">
+                                        <h5 class="mb-0">Fadil</h5>
+                                        <small>Executive Manager</small>
+                                        <div class="d-flex justify-content-center mt-3">
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-facebook-f"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-twitter"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-instagram"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-md-4">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                        <img class="img-fluid rounded-circle p-4" src="img/team-3.jpg" alt="">
+                                        <h5 class="mb-0">Rifki</h5>
+                                        <small>Co Founder</small>
+                                        <div class="d-flex justify-content-center mt-3">
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-facebook-f"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-twitter"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-instagram"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Pandangan Mereka Tentang Alutsista</div>
+                    <h1 class="mb-4">what are they saying ?</h1>
+                    <p class="mb-4">Pandangan kami terhadap Alutsista tidak hanya sebatas pada kecanggihan teknologi dan kehandalan peralatan, melainkan juga pada peran vitalnya dalam menjaga kedaulatan dan keamanan negara. </p>
+                    <a class="btn btn-primary rounded-pill px-4" href="">Read More</a>
+                </div>
+                <div class="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel border-start border-primary">
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">Presiden RI Joko Widodo (Jokowi) meminta agar pengadaan alat utama sistem persenjataan dilakukan secara bijak dengan memperhatikan kebutuhan dan kemampuan anggaran pendapatan dan belanja negara (APBN).</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/jokowi.webp"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Joko Widodo</h5>
+                                    <span>Presiden</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">Kementerian Pertahanan (Kemhan) di bawah kepemimpinan Menteri Pertahanan Prabowo Subianto akan melanjutkan pengadaan alat utama sistem persenjataan (alutsista) Tentara Nasional Indonesia (TNI) pada tahun ini. Tentu dengan memanfaatkan alokasi anggaran yang diberikan pemerintah.</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/prabowo.jpeg"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Prabowo Subianto</h5>
+                                    <span>Menteri Pertahanan</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer pt-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <a href="index.html" class="d-inline-block mb-3">
+                        <h1 class="text-white">Alut<span class="text-primary"></span>Sista</h1>
+                    </a>
+                    <p class="mb-0">Jaga Persatuan dan Kesatuan Republik Indonesia</p>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <h5 class="text-white mb-4">Hubungi</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>Jl. RS. Fatmawati No. 1 Pondok Labu Jakarta Selatan 12450</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>021-7690009</p>
+                    <p><i class="fa fa-globe me-3"></i>www.kemhan.go.id</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <h5 class="text-white mb-4">Popular Link</h5>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Features</a>
+                    <a class="btn btn-link" href="">Our Team</a>
+                    <a class="btn btn-link" href="">Jenis Alutsista</a>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <h5 class="text-white mb-4">Our Services</h5>
+                    <a class="btn btn-link" href="">Pengajuan Alutsista</a>
+                    <a class="btn btn-link" href="">Pemeliharaan Alutsista</a>
+                    <a class="btn btn-link" href="">Pengelolaan Data Alutsista</a>
+                    <a class="btn btn-link" href="">Laporan</a>
+                    <a class="btn btn-link" href="">Integrasi Data</a>
+                </div>
+            </div>
+        </div>
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Alutsista</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FAQs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
